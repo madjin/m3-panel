@@ -1,0 +1,40 @@
+<html>
+<body>
+<!--
+<FireBoxRoom>
+ <Assets>
+  <AssetImage id="rmap" src="img/Evening_Radiance.dds" tex_clamp="true"/>
+  <AssetImage id="irmap" src="img/Evening_Irradiance.dds" tex_clamp="true"/>
+  <AssetImage id="screen" src="img/screen.jpg"/>
+  <AssetImage id="black" src="img/black.png" tex_clamp="true"/>
+  <AssetObject id="filmset2" src="model/filmset2.gltf"/>
+  <AssetImage id="https://i.imgur.com/ZrIwBv3.png" src="img/boombox.png"/>
+  <AssetImage id="https://i.imgur.com/niQzujn.png" src="img/ayy.png"/>
+  <AssetImage id="https://i.imgur.com/3oJk5UP.png" src="img/ders.png"/>
+  <AssetImage id="https://i.imgur.com/lJB8Xso.png" src="img/bigtin.png"/>
+  <AssetVideo id="panel" src="https://s.kool.world/vid/m3/2_out.webm" auto_play="true" />
+ </Assets>
+ <Room ambient="0.8 0.8 0.8" cubemap_irradiance_id="irmap" cubemap_radiance_id="rmap" defaultlights="false" party_mode="false" shadows="true" skybox_back_id="black" skybox_down_id="black" skybox_front_id="black" skybox_left_id="black" skybox_right_id="black" skybox_up_id="black" use_local_asset="room_plane" visible="false" xdir="-1 0 0" zdir="0 0 -1">
+  <Object blend_dest="one_minus_constant_color" blend_src="src_alpha" collision_id="plane" id="plane" js_id="jin-17-1568183979" lighting="false" pos="4.13 1.22 -4.74" scale="4.8 3.1 1" video_id="panel" xdir="0.173648 0 0.984808" zdir="-0.984808 0 0.173648"/>
+  <Object cull_face="back" id="filmset2" js_id="jin_1664-3-1595657205" pos="-5 0.2 -2.7" xdir="0.113198 0 0.993572" zdir="-0.993572 0 0.113198"/>
+  <Object collision_id="plane" cull_face="none" id="plane" image_id="https://i.imgur.com/Ipg4SLs.jpg" js_id="jin-18-1568184096" lighting="false" pos="0.05 1.49 -7.43" scale="3.2 1.9 1" xdir="0.992141 0.004969 -0.125023" ydir="-0.004635 0.999985 0.002969" zdir="0.125036 -0.002367 0.992149"/>
+  <Object cull_face="none" id="plane" image_id="https://i.imgur.com/lJB8Xso.png" js_id="jin_1664-5-1595658899" lighting="false" pos="-2.6 0.63 -3.9" scale="0.7 0.7 1" xdir="-0.091997 0 -0.995759" ydir="-0.060679 0.998142 0.005606" zdir="0.993909 0.060937 -0.091826"/>
+  <Object cull_face="none" id="plane" image_id="https://i.imgur.com/ZrIwBv3.png" js_id="jin_1664-3-1595658854" lighting="false" pos="-2.6 1 -4.9" scale="1 1.4 1" xdir="0.172163 0.015062 -0.984953" ydir="-0.132785 0.991112 -0.008053" zdir="0.976078 0.132174 0.172633"/>
+  <Object cull_face="none" id="plane" image_id="https://i.imgur.com/niQzujn.png" js_id="jin_1664-6-1595658916" lighting="false" pos="2.6 0.62 0" scale="1 1.7 1" xdir="-0.86455 0 0.502546" ydir="0 1 0" zdir="-0.502546 0 -0.86455" billboard="y" />
+  <Object cull_face="none" id="plane" image_id="https://i.imgur.com/3oJk5UP.png" js_id="jin_1664-4-1595658870" lighting="false" pos="-2.4 0.6 -3" scale="1.1 1.5 1" xdir="-0.258819 -0 -0.965926" ydir="-0.25 0.965926 0.066987" zdir="0.933013 0.258819 -0.25"/>
+  <Light js_id="jin_1664-7-1595662781" light_cone_angle="0" light_cone_exponent="1" light_intensity="10" light_range="8" pos="2.8 2 -6.2" xdir="-0.233456 0 0.972367" ydir="-0.837098 0.508796 -0.200979" zdir="-0.494737 -0.860887 -0.118781"/>
+  <Light color="FFFCC6" js_id="jin_1664-4-1595662192" light_cone_angle="0" light_cone_exponent="1" light_intensity="10" light_range="5" pos="-2.8 1 -5.8" xdir="0.126205 0 -0.992004" ydir="0.368931 0.928271 0.046936" zdir="0.920848 -0.371905 0.117153"/>
+  <Light color="FFFCC6" js_id="jin_1664-5-1595662204" light_cone_angle="0" light_cone_exponent="1" light_intensity="10" light_range="5" pos="-2.3 0.9 -2" xdir="-0.077002 0 -0.997031" ydir="0.954308 0.289592 -0.073702" zdir="0.288733 -0.95715 -0.022299"/>
+  <Light color="FFFCC6" js_id="jin_1664-2-1595662142" light_cone_angle="0" light_cone_exponent="1" light_intensity="12" light_range="5" pos="3 1.9 -4"/>
+  <Light color="FFFCC6" js_id="jin_1664-6-1595662233" light_cone_angle="0" light_cone_exponent="1" light_intensity="12" light_range="5" pos="3 3 -1" xdir="-0.222125 0 0.975018" ydir="-0.711142 0.684127 -0.16201" zdir="-0.667036 -0.729363 -0.151962"/>
+  <Light color="FFFCC6" js_id="jin_1664-3-1595662172" light_cone_angle="0" light_cone_exponent="1" light_intensity="14" light_range="15" light_shadow="true" pos="0 1 -8" xdir="0 0 1" zdir="-1 0 0"/>
+ </Room>
+</FireBoxRoom>
+-->
+<script src="https://web.janusxr.org/1.5.17/janusweb.js"></script>
+<script>
+elation.janusweb.init({
+        url: document.location.href,});
+</script>
+</body>
+</html>
